@@ -53,34 +53,4 @@ export interface PosterRequestData {
      * @memberof PosterRequestData
      */
     image?: number | string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PosterRequestData
-     */
-    mongoId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PosterRequestData
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PosterRequestData
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PosterRequestData
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PosterRequestData
-     */
-    imageOid?: string;
 }

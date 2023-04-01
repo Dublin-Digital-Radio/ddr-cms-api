@@ -41,34 +41,4 @@ export interface PodcastRequestData {
      * @memberof PodcastRequestData
      */
     image?: number | string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastRequestData
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastRequestData
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastRequestData
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastRequestData
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastRequestData
-     */
-    mongoId?: string;
 }

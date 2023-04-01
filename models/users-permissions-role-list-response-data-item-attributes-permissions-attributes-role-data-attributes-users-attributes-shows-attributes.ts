@@ -89,36 +89,6 @@ export interface UsersPermissionsRoleListResponseDataItemAttributesPermissionsAt
     slug?: string;
     /**
      * 
-     * @type {string}
-     * @memberof UsersPermissionsRoleListResponseDataItemAttributesPermissionsAttributesRoleDataAttributesUsersAttributesShowsAttributes
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof UsersPermissionsRoleListResponseDataItemAttributesPermissionsAttributesRoleDataAttributesUsersAttributesShowsAttributes
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof UsersPermissionsRoleListResponseDataItemAttributesPermissionsAttributesRoleDataAttributesUsersAttributesShowsAttributes
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof UsersPermissionsRoleListResponseDataItemAttributesPermissionsAttributesRoleDataAttributesUsersAttributesShowsAttributes
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof UsersPermissionsRoleListResponseDataItemAttributesPermissionsAttributesRoleDataAttributesUsersAttributesShowsAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {BlogListResponseDataItemAttributesImageDataAttributesRelated}
      * @memberof UsersPermissionsRoleListResponseDataItemAttributesPermissionsAttributesRoleDataAttributesUsersAttributesShowsAttributes
      */

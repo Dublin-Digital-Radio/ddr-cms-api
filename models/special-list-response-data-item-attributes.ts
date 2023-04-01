@@ -46,36 +46,6 @@ export interface SpecialListResponseDataItemAttributes {
     image?: BlogListResponseDataItemAttributesImage;
     /**
      * 
-     * @type {string}
-     * @memberof SpecialListResponseDataItemAttributes
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialListResponseDataItemAttributes
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialListResponseDataItemAttributes
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialListResponseDataItemAttributes
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialListResponseDataItemAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {Date}
      * @memberof SpecialListResponseDataItemAttributes
      */

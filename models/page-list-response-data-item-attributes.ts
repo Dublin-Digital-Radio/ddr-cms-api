@@ -52,12 +52,6 @@ export interface PageListResponseDataItemAttributes {
     url?: string;
     /**
      * 
-     * @type {string}
-     * @memberof PageListResponseDataItemAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {Date}
      * @memberof PageListResponseDataItemAttributes
      */

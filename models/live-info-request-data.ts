@@ -14,37 +14,37 @@
 /**
  * 
  * @export
- * @interface PageRequestData
+ * @interface LiveInfoRequestData
  */
-export interface PageRequestData {
+export interface LiveInfoRequestData {
     /**
      * 
-     * @type {string}
-     * @memberof PageRequestData
+     * @type {any}
+     * @memberof LiveInfoRequestData
      */
-    content?: string;
+    current: any;
     /**
      * 
-     * @type {Array<number | string>}
-     * @memberof PageRequestData
+     * @type {any}
+     * @memberof LiveInfoRequestData
      */
-    media?: Array<number | string>;
+    next0?: any;
     /**
      * 
-     * @type {string}
-     * @memberof PageRequestData
+     * @type {any}
+     * @memberof LiveInfoRequestData
      */
-    author?: string;
+    next1?: any;
     /**
      * 
-     * @type {string}
-     * @memberof PageRequestData
+     * @type {any}
+     * @memberof LiveInfoRequestData
      */
-    title?: string;
+    next2?: any;
     /**
      * 
-     * @type {string}
-     * @memberof PageRequestData
+     * @type {any}
+     * @memberof LiveInfoRequestData
      */
-    url?: string;
+    next3?: any;
 }

@@ -11,28 +11,24 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
+import { BlogListResponseMeta } from './blog-list-response-meta';
+import { LiveInfoListResponseDataItem } from './live-info-list-response-data-item';
 /**
  * 
  * @export
- * @interface GooglePageRequestData
+ * @interface LiveInfoListResponse
  */
-export interface GooglePageRequestData {
+export interface LiveInfoListResponse {
     /**
      * 
-     * @type {string}
-     * @memberof GooglePageRequestData
+     * @type {Array<LiveInfoListResponseDataItem>}
+     * @memberof LiveInfoListResponse
      */
-    path: string;
+    data?: Array<LiveInfoListResponseDataItem>;
     /**
      * 
-     * @type {string}
-     * @memberof GooglePageRequestData
+     * @type {BlogListResponseMeta}
+     * @memberof LiveInfoListResponse
      */
-    googleDocId: string;
-    /**
-     * 
-     * @type {boolean}
-     * @memberof GooglePageRequestData
-     */
-    mSWordFormat: boolean;
+    meta?: BlogListResponseMeta;
 }

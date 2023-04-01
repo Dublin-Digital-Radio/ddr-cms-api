@@ -31,24 +31,6 @@ export interface EventItemRequestData {
     bio?: string;
     /**
      * 
-     * @type {string}
-     * @memberof EventItemRequestData
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof EventItemRequestData
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof EventItemRequestData
-     */
-    imagePublicId?: string;
-    /**
-     * 
      * @type {number | string}
      * @memberof EventItemRequestData
      */

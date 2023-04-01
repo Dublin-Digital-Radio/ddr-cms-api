@@ -39,12 +39,6 @@ export interface GooglePageListResponseDataItemAttributes {
     mSWordFormat?: boolean;
     /**
      * 
-     * @type {string}
-     * @memberof GooglePageListResponseDataItemAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {Date}
      * @memberof GooglePageListResponseDataItemAttributes
      */

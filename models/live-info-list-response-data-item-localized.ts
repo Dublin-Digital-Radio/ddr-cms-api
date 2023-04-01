@@ -11,28 +11,23 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
+import { LiveInfoListResponseDataItemAttributes } from './live-info-list-response-data-item-attributes';
 /**
  * 
  * @export
- * @interface GooglePageRequestData
+ * @interface LiveInfoListResponseDataItemLocalized
  */
-export interface GooglePageRequestData {
+export interface LiveInfoListResponseDataItemLocalized {
     /**
      * 
-     * @type {string}
-     * @memberof GooglePageRequestData
+     * @type {number}
+     * @memberof LiveInfoListResponseDataItemLocalized
      */
-    path: string;
+    id?: number;
     /**
      * 
-     * @type {string}
-     * @memberof GooglePageRequestData
+     * @type {LiveInfoListResponseDataItemAttributes}
+     * @memberof LiveInfoListResponseDataItemLocalized
      */
-    googleDocId: string;
-    /**
-     * 
-     * @type {boolean}
-     * @memberof GooglePageRequestData
-     */
-    mSWordFormat: boolean;
+    attributes?: LiveInfoListResponseDataItemAttributes;
 }

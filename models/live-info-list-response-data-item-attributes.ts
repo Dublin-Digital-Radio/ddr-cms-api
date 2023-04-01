@@ -11,73 +11,66 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-import { BlogListResponseDataItemAttributesImage } from './blog-list-response-data-item-attributes-image';
 import { BlogListResponseDataItemAttributesImageDataAttributesFolderDataAttributesFilesAttributesCreatedBy } from './blog-list-response-data-item-attributes-image-data-attributes-folder-data-attributes-files-attributes-created-by';
 import { BlogListResponseDataItemAttributesImageDataAttributesFolderDataAttributesParent } from './blog-list-response-data-item-attributes-image-data-attributes-folder-data-attributes-parent';
 /**
  * 
  * @export
- * @interface PosterListResponseDataItemAttributes
+ * @interface LiveInfoListResponseDataItemAttributes
  */
-export interface PosterListResponseDataItemAttributes {
+export interface LiveInfoListResponseDataItemAttributes {
     /**
      * 
-     * @type {string}
-     * @memberof PosterListResponseDataItemAttributes
+     * @type {any}
+     * @memberof LiveInfoListResponseDataItemAttributes
      */
-    name?: string;
+    current?: any;
+    /**
+     * 
+     * @type {any}
+     * @memberof LiveInfoListResponseDataItemAttributes
+     */
+    next0?: any;
+    /**
+     * 
+     * @type {any}
+     * @memberof LiveInfoListResponseDataItemAttributes
+     */
+    next1?: any;
+    /**
+     * 
+     * @type {any}
+     * @memberof LiveInfoListResponseDataItemAttributes
+     */
+    next2?: any;
+    /**
+     * 
+     * @type {any}
+     * @memberof LiveInfoListResponseDataItemAttributes
+     */
+    next3?: any;
     /**
      * 
      * @type {Date}
-     * @memberof PosterListResponseDataItemAttributes
-     */
-    displayFrom?: Date;
-    /**
-     * 
-     * @type {Date}
-     * @memberof PosterListResponseDataItemAttributes
-     */
-    displayUntil?: Date;
-    /**
-     * 
-     * @type {string}
-     * @memberof PosterListResponseDataItemAttributes
-     */
-    url?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PosterListResponseDataItemAttributes
-     */
-    active?: string;
-    /**
-     * 
-     * @type {BlogListResponseDataItemAttributesImage}
-     * @memberof PosterListResponseDataItemAttributes
-     */
-    image?: BlogListResponseDataItemAttributesImage;
-    /**
-     * 
-     * @type {Date}
-     * @memberof PosterListResponseDataItemAttributes
+     * @memberof LiveInfoListResponseDataItemAttributes
      */
     createdAt?: Date;
     /**
      * 
      * @type {Date}
-     * @memberof PosterListResponseDataItemAttributes
+     * @memberof LiveInfoListResponseDataItemAttributes
      */
     updatedAt?: Date;
     /**
      * 
      * @type {BlogListResponseDataItemAttributesImageDataAttributesFolderDataAttributesFilesAttributesCreatedBy}
-     * @memberof PosterListResponseDataItemAttributes
+     * @memberof LiveInfoListResponseDataItemAttributes
      */
     createdBy?: BlogListResponseDataItemAttributesImageDataAttributesFolderDataAttributesFilesAttributesCreatedBy;
     /**
      * 
      * @type {BlogListResponseDataItemAttributesImageDataAttributesFolderDataAttributesParent}
-     * @memberof PosterListResponseDataItemAttributes
+     * @memberof LiveInfoListResponseDataItemAttributes
      */
     updatedBy?: BlogListResponseDataItemAttributesImageDataAttributesFolderDataAttributesParent;
 }

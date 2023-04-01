@@ -11,28 +11,17 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
+import { LiveInfoRequestData } from './live-info-request-data';
 /**
  * 
  * @export
- * @interface GooglePageRequestData
+ * @interface LiveInfoRequest
  */
-export interface GooglePageRequestData {
+export interface LiveInfoRequest {
     /**
      * 
-     * @type {string}
-     * @memberof GooglePageRequestData
+     * @type {LiveInfoRequestData}
+     * @memberof LiveInfoRequest
      */
-    path: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof GooglePageRequestData
-     */
-    googleDocId: string;
-    /**
-     * 
-     * @type {boolean}
-     * @memberof GooglePageRequestData
-     */
-    mSWordFormat: boolean;
+    data: LiveInfoRequestData;
 }

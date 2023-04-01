@@ -88,36 +88,6 @@ export interface CandidateResidentVoteListResponseDataItemAttributesUsersPermiss
     slug?: string;
     /**
      * 
-     * @type {string}
-     * @memberof CandidateResidentVoteListResponseDataItemAttributesUsersPermissionsUserDataAttributesShowsAttributes
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof CandidateResidentVoteListResponseDataItemAttributesUsersPermissionsUserDataAttributesShowsAttributes
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof CandidateResidentVoteListResponseDataItemAttributesUsersPermissionsUserDataAttributesShowsAttributes
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof CandidateResidentVoteListResponseDataItemAttributesUsersPermissionsUserDataAttributesShowsAttributes
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof CandidateResidentVoteListResponseDataItemAttributesUsersPermissionsUserDataAttributesShowsAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {BlogListResponseDataItemAttributesImageDataAttributesRelated}
      * @memberof CandidateResidentVoteListResponseDataItemAttributesUsersPermissionsUserDataAttributesShowsAttributes
      */

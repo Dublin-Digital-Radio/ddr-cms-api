@@ -46,36 +46,6 @@ export interface PodcastListResponseDataItemAttributes {
     image?: BlogListResponseDataItemAttributesImage;
     /**
      * 
-     * @type {string}
-     * @memberof PodcastListResponseDataItemAttributes
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastListResponseDataItemAttributes
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastListResponseDataItemAttributes
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastListResponseDataItemAttributes
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof PodcastListResponseDataItemAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {Date}
      * @memberof PodcastListResponseDataItemAttributes
      */

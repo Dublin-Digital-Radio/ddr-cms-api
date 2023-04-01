@@ -64,36 +64,6 @@ export interface BlogListResponseDataItemAttributes {
     slug?: string;
     /**
      * 
-     * @type {string}
-     * @memberof BlogListResponseDataItemAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogListResponseDataItemAttributes
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogListResponseDataItemAttributes
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogListResponseDataItemAttributes
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogListResponseDataItemAttributes
-     */
-    imageOid?: string;
-    /**
-     * 
      * @type {Date}
      * @memberof BlogListResponseDataItemAttributes
      */

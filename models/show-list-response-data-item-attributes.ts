@@ -88,36 +88,6 @@ export interface ShowListResponseDataItemAttributes {
     slug?: string;
     /**
      * 
-     * @type {string}
-     * @memberof ShowListResponseDataItemAttributes
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ShowListResponseDataItemAttributes
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ShowListResponseDataItemAttributes
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ShowListResponseDataItemAttributes
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ShowListResponseDataItemAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {EventListResponseDataItemAttributesUsersPermissionsUsers}
      * @memberof ShowListResponseDataItemAttributes
      */

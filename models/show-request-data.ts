@@ -85,36 +85,6 @@ export interface ShowRequestData {
     slug?: string;
     /**
      * 
-     * @type {string}
-     * @memberof ShowRequestData
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ShowRequestData
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ShowRequestData
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ShowRequestData
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof ShowRequestData
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {Array<number | string>}
      * @memberof ShowRequestData
      */

@@ -34,24 +34,6 @@ export interface EventItemListResponseDataItemAttributes {
     bio?: string;
     /**
      * 
-     * @type {string}
-     * @memberof EventItemListResponseDataItemAttributes
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof EventItemListResponseDataItemAttributes
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof EventItemListResponseDataItemAttributes
-     */
-    imagePublicId?: string;
-    /**
-     * 
      * @type {BlogListResponseDataItemAttributesImage}
      * @memberof EventItemListResponseDataItemAttributes
      */

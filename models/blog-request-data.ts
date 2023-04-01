@@ -59,34 +59,4 @@ export interface BlogRequestData {
      * @memberof BlogRequestData
      */
     slug?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogRequestData
-     */
-    mongoId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogRequestData
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogRequestData
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogRequestData
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof BlogRequestData
-     */
-    imageOid?: string;
 }

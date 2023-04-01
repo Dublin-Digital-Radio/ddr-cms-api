@@ -18,6 +18,7 @@ export * from './apis/candidate-resident-vote-api';
 export * from './apis/event-api';
 export * from './apis/event-item-api';
 export * from './apis/google-page-api';
+export * from './apis/live-info-api';
 export * from './apis/live-stream-config-api';
 export * from './apis/mix-api';
 export * from './apis/nav-item-api';

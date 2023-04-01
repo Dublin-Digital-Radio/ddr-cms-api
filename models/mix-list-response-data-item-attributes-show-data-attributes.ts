@@ -88,36 +88,6 @@ export interface MixListResponseDataItemAttributesShowDataAttributes {
     slug?: string;
     /**
      * 
-     * @type {string}
-     * @memberof MixListResponseDataItemAttributesShowDataAttributes
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof MixListResponseDataItemAttributesShowDataAttributes
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof MixListResponseDataItemAttributesShowDataAttributes
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof MixListResponseDataItemAttributesShowDataAttributes
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof MixListResponseDataItemAttributesShowDataAttributes
-     */
-    mongoId?: string;
-    /**
-     * 
      * @type {MixListResponseDataItemAttributesShowDataAttributesUsers}
      * @memberof MixListResponseDataItemAttributesShowDataAttributes
      */

@@ -41,34 +41,4 @@ export interface SpecialRequestData {
      * @memberof SpecialRequestData
      */
     image?: number | string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialRequestData
-     */
-    imageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialRequestData
-     */
-    secureImageUrl?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialRequestData
-     */
-    imagePublicId?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialRequestData
-     */
-    imageOid?: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof SpecialRequestData
-     */
-    mongoId?: string;
 }
