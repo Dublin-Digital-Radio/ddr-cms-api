@@ -1,16 +1,9 @@
 {
-  "name": "",
-  "version": "",
-  "description": "OpenAPI client for ",
-  "author": "OpenAPI-Generator Contributors",
-  "keywords": [
-    "axios",
-    "typescript",
-    "openapi-client",
-    "openapi-generator",
-    ""
-  ],
-  "license": "Unlicense",
+  "name": "@dublin-digital-radio/ddr-cms-api",
+  "version": "1.0.0",
+  "description": "OpenAPI client for ddr-cms",
+  "author": "Dublin Digital Radio, OpenAPI-Generator Contributors",
+  "license": "ISC",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
@@ -18,10 +11,18 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.4"
   },
   "devDependencies": {
     "@types/node": "^12.11.5",
     "typescript": "^3.6.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dublin-Digital-Radio/ddr-cms-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dublin-Digital-Radio/ddr-cms-api/issues"
+  },
+  "homepage": "https://github.com/Dublin-Digital-Radio/ddr-cms-api#readme"
 }
