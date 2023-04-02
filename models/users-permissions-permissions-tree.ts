@@ -12,9 +12,9 @@
  * Do not edit the class manually.
  */
 /**
- * 
+ *
  * @export
  * @interface UsersPermissionsPermissionsTree
  */
-export interface UsersPermissionsPermissionsTree extends null<String, any> {
+export interface UsersPermissionsPermissionsTree extends Record<string, any> {
 }

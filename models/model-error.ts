@@ -13,19 +13,19 @@
  */
 import { ErrorError } from './error-error';
 /**
- * 
+ *
  * @export
  * @interface ModelError
  */
-export interface ModelError {
+export interface ModelError <T> {
     /**
-     * 
+     *
      * @type {any | Array}
      * @memberof ModelError
      */
-    data?: any | Array | null;
+    data?: any | Array<T> | null;
     /**
-     * 
+     *
      * @type {ErrorError}
      * @memberof ModelError
      */
